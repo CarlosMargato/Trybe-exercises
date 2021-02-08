@@ -1,4 +1,7 @@
 Unix
 Bash
 Git
-Search
+HTML
+CSS
+JavaScript
+Python
