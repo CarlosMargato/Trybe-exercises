@@ -49,7 +49,7 @@
       width: 85px;
       position: absolute;
       top: 64px;
-      left: 155px;
+      left: 150px;
       z-index: 5;
 
   }
@@ -71,20 +71,40 @@
 
   /* EXERCICIO PARTE 3 - destinado a terceira parte dos exercicios das aulas 3.2 */
 
-    body {
+    #exercicio3 {
+        
+        background-color: #aacc85;
         font-family:'Exo', sans-serif;
+        
     } 
+
+    h1, p{
+
+        text-align: center;
+    }
+
+    li:hover {
+        background-color: darkslategrey;
+        text-align: center;
+        border-radius: 10%;
+        margin: 0px 190px 5px 10px;
+
+    }
+    li:active{
+        font-family: Verdana, Geneva, Tahoma, sans-serif;
+    }
+
+    li {
+
+        text-align: center;
+        border-radius: 10%;
+        margin: 0px 190px 5px 10px;
+        list-style:none;
+        
+
+    }
+
+
     
-    h1 {
-        
-        text-align: center;
-        color: blue;
-
-    }
-
-    p { 
-        
-        text-align: center;
-    }
 
     
