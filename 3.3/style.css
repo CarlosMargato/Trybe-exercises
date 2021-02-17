@@ -71,4 +71,20 @@
 
   /* EXERCICIO PARTE 3 - destinado a terceira parte dos exercicios das aulas 3.2 */
 
-  font-family: 'Exo', sans-serif;
+    body {
+        font-family:'Exo', sans-serif;
+    } 
+    
+    h1 {
+        
+        text-align: center;
+        color: blue;
+
+    }
+
+    p { 
+        
+        text-align: center;
+    }
+
+    
