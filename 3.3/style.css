@@ -1,110 +1,13 @@
-.caixa {
-    color: white;
-    display: inline-block;
-    line-height: 50px;
-    text-align: center;
-    vertical-align: top;
-  }
+/* EXERCICIO PARTE 4 - destinado a quarta parte dos exercicios das aulas 3.2 */
 
-  .width-and-height {
-    height: 50px;
-    width: 50px;
-  }
-
-  .padding { 
-      padding : 20px;
-  /* insira aqui um padding de 20px na classe abaixo para aplicá-lo aos itens B, C e D */
-  }
-
-  .margin { 
-      margin: 30px;
-  /* insira aqui uma margem de 30px na classe abaixo para aplicá-la aos itens C e D */
-  }
-
-  .border {
-      border: 5px solid;
-      border-color:black;
-  /* insira aqui uma borda com valor '5px solid black' para aplicá-la ao item D */
-  }
-
-  /* EXERCICIO PARTE 2 - destinado a segunda parte dos exercicios das aulas 3.2 */
-
-  .super-mario{
-      width: 100px;
-      position: absolute;
-      bottom: 74px;
-      z-index: 2;
-      ;
-
-  }
-  .goomba {
-      width: 70px;
-      position: absolute;
-      left: 100px;
-      bottom: 15px;
-      z-index: 1;
-
-  }
-  .word {
-      width: 85px;
-      position: absolute;
-      top: 64px;
-      left: 150px;
-      z-index: 5;
-
-  }
-  .baloon {
-      width: 100px;
-      position: absolute;
-      left: 145px;
-      top: 72px;
-      z-index: 4;
-
-  }
-  .bowser {
-      width: 100px;
-      position: absolute;
-      left: 235px;
-      z73
-
-  }
-
-  /* EXERCICIO PARTE 3 - destinado a terceira parte dos exercicios das aulas 3.2 */
-
-    #exercicio3 {
-        
-        background-color: #aacc85;
-        font-family:'Exo', sans-serif;
-        
-    } 
-
-    h1, p{
-
-        text-align: center;
+    div {
+        margin: 10%;
     }
-
-    li:hover {
-        background-color: darkslategrey;
-        text-align: center;
-        border-radius: 10%;
-        margin: 0px 190px 5px 10px;
-
-    }
-    li:active{
-        font-family: Verdana, Geneva, Tahoma, sans-serif;
-    }
-
-    li {
-
-        text-align: center;
-        border-radius: 10%;
-        margin: 0px 190px 5px 10px;
-        list-style:none;
-        
-
-    }
-
-
     
+    div:hover {
+        border-width: 5px;
+        border-style: solid;
+        border-color: midnightblue;
+    }
 
     
