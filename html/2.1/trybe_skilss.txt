@@ -1,0 +1,7 @@
+Unix
+Bash
+Git
+HTML
+CSS
+JavaScript
+Python
