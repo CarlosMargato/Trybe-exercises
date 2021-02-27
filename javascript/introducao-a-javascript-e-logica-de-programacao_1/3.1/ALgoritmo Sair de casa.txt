@@ -1,0 +1,25 @@
+Qual é o tipo de festa?
+Como está o tempo?
+qual o horario do dia?
+Abrir armario
+verificar roupas limpas compativeis
+Se tiver camiseta/polo, pega-la
+se tiver bermuda/calça, pega-la
+fechar armario
+precisar passar? se sim passar roupa e deixar roupa na cama
+se nao deixar roupa na cama
+tirar o pijama do corpo
+tomar banho*
+ir na comoda
+abrir gaveta da comoda
+pegar roupa intima
+colocar roupa intima
+colocar bermuda/calça
+colocar camiseta/polo
+ir no aparador
+pegar carteira, celular, doc carro, chave do carro
+abrir a porta de casa,
+retirar a chave da porta de casa
+fechar a a porta de casa
+trancar a porta de casa
+
