@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="style.css">
+  <title>Document</title>
+</head>
+
+<body>
+  <form action="">
+    <fieldset>
+      <label for="username">Nome:
+        <input type="text" name="username" id="username" placeholder="Digite o seu nome..">
+      </label><br>
+      <label for="userEmail">E-Mail:
+        <input type="email" name="userEmail" id="userEmail">
+      </label><br>
+      <label for="cpfUser">C.P.F.:
+        <input type="number" name="cpfUser" id="cpfUser">
+      </label><br>
+      <label for="userAdress">Endereço:
+        <input type="text" name="adress" id="userAdress">
+      </label><br>
+      <label for="userState">Estado:
+        <select name="userState" id="userState">
+        </select>
+      </label><br>
+      <label for="house"> Tipo de Residência
+        <input type="radio" name="house" id="userLoft">Apartamento
+        <input type="radio" name="house" id="userHouse">Casa<br>
+      </label>
+    </fieldset>
+    <fieldset>
+      <label for="abstract">Resumo de Currículo <br>
+        <textarea name="abstract" id="abstract" cols="30" rows="10"></textarea><br>
+      </label>
+      <label for="">Cargo
+        <input type="text" name="cargo" id="cargo"><br>
+      </label>
+      <label for="describe">Descrição do Cargo <br>
+        <textarea name="describe" id="describe" cols="30" rows="10"></textarea><br>
+      </label>
+      <label for="calendar">
+        <input type="date" name="calendar" id="calendar"><br>
+      </label>
+      <div>
+        <button type="submit">Enviar</button>
+        <button type="reset">Limpar</button>
+      </div>
+    </fieldset>
+  </form>
+
+
+  <script src="script.js"></script>
+</body>
+
+</html>
