@@ -1,0 +1,38 @@
+/* EXERCICIO PARTE 3 - destinado a terceira parte dos exercicios das aulas 3.2 */
+
+#exercicio3 {
+        
+    background-color: #aacc85;
+    font-family:'Exo', sans-serif;
+    text-decoration: none;
+    
+} 
+
+h1, p{
+
+    text-align: center;
+    
+}
+
+li:hover {
+    background-color: darkslategrey;
+    text-align: center;
+    border-radius: 10%;
+    margin: 0px 190px 5px 10px;
+    text-decoration: none;
+
+}
+li:active{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    text-decoration: none;
+}
+
+li {
+
+    text-align: center;
+    border-radius: 10%;
+    margin: 0px 190px 5px 10px;
+    list-style:none;
+    text-decoration: none;
+
+}
