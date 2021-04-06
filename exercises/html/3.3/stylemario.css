@@ -1,0 +1,49 @@
+/* EXERCICIO PARTE 2 - destinado a segunda parte dos exercicios das aulas 3.2 */
+
+ .super-mario{
+    
+    width: 100px;
+    position: absolute;
+    bottom: 74px;
+    z-index: 2;
+
+    }
+
+.goomba {
+    
+    width: 70px;
+    position: absolute;
+    left: 100px;
+    bottom: 15px;
+    z-index: 1;
+    
+    }
+
+.word {
+    
+    width: 85px;
+    position: absolute;
+    top: 64px;
+    left: 155px;
+    z-index: 5;
+
+    }
+
+.baloon {
+    
+    width: 100px;
+    position: absolute;
+    left: 145px;
+    top: 72px;
+    z-index: 4;
+
+    }
+
+.bowser {
+    
+    width: 100px;
+    position: absolute;
+    left: 235px;
+    z73
+
+    }

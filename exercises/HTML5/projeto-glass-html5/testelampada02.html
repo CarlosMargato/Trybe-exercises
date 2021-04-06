@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <script>
+    let quebrada = false;
+    function mudaLampada(tipo) {
+      if (!quebrada) {
+        document.getElementById('lampada').src = '_imagens/'+ tipo + '.jpg';
+        if (tipo == 'lampada-quebrada') {
+          quebrada = true;
+        }
+      }
+    }
+  </script>
+  <style>
+    body {
+      display: block;
+      text-align: center;
+      margin: auto;
+    }
+
+    button {
+      color: #364547;
+      background-color:#CDFFFC;
+      font-size: 50px;
+      border-radius: 35px;
+      padding: 10px 25px;
+    }
+  </style>
+  <title>Lâmpada apagada</title>
+</head>
+
+<body>
+<div>
+  <h1>Acenda a lâmpada</h1>
+  <img src='_imagens/lampada-apagada.jpg' id="lampada" onmousemove="mudaLampada('lampada-acesa')" onmouseout="mudaLampada('lampada-apagada')"
+    onclick="mudaLampada('lampada-quebrada')" /> <br>
+    <button type="button" id="milagre">Milagre!!</button>
+  </div>
+</body>
+
+</html>

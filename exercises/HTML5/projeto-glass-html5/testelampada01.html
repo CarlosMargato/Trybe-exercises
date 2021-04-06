@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <script>
+    function acendeLampada() {
+      document.getElementById('lampada').src = '_imagens/lampada-acesa.jpg';
+    }
+    function apagaLampada() {
+      document.getElementById('lampada').src = '_imagens/lampada-apagada.jpg';
+    }
+    function quebraLampada() {
+      document.getElementById('lampada').src = '_imagens/lampada-quebrada.jpg'
+    }
+  </script>
+  <title>Lâmpada apagada</title>
+</head>
+
+<body>
+
+  <h1>Acenda a lâmpada</h1>
+  <img src='_imagens/lampada-apagada.jpg' id="lampada" onmousemove="acendeLampada()" onmouseout="apagaLampada()"
+    onclick="quebraLampada()" />
+
+</body>
+
+</html>
