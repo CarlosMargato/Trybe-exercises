@@ -1,1 +1,0 @@
-const retailCompanies = companies.filter(company => company.category === 'Retail');

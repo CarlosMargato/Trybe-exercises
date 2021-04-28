@@ -18,7 +18,7 @@ const ages = [33, 12, 20, 16, 5, 54, 21, 44, 61, 13, 15, 45, 25, 64, 32];
 // console.log(`Pesquisando somente o nome: ${company.name}`);
 // })
 
-//***Filter***
+//***Filter*** corre todo o array e filtra os itens
 
 //saber quem é maior de 21
 let canDrink = ages.filter(function (age) { //neste caso sem aerofunction
@@ -39,7 +39,7 @@ let retailCompanies = companies.filter(function (company) {
   }
 });
 
-// console.log(retailCompanies);
+console.log(retailCompanies);
 
 let retailCompaniesSlim = companies.filter(companies => companies.category === 'Retail');
 // console.log(retailCompaniesSlim);
@@ -158,4 +158,4 @@ let combined = ages
   .sort((a, b) => a - b)
   // .reduce((a, b) => a + b);
 
-console.log(combined);
+// console.log(combined);
